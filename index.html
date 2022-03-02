@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto&display=swap" rel="stylesheet">
+
+	<link href="styles.css" rel="stylesheet" type="text/css">
+  <title>App</title>
+</head>
+<body>
+  <header class="header">
+    <a href="index.html">
+      <img src="svg/logo.svg" alt="logo" class="logo">
+    </a>
+  </header>
+
+  <div class = "main">
+    <div class="text">
+      <h1>Under construction</h1>
+      <p>We're making lots of improvements and will be back soon</p>
+    </div>
+  </div>
+  <img src="svg/vector-1.svg" class="vector-1">
+  <img src="svg/vector-2.svg" class="vector-2">
+	<div class="timer">
+    <ul class="timer__items">
+      <li class="item" >
+        <p class="timer__item timer__days">00</p>
+        <div class="parts_day">
+          <span id="days" class="days">Days</span>
+      </div>
+      </li>
+      <li class="item">
+        <p class="timer__item timer__hours" >00</p>
+        <div class="parts_day">
+          <span id="hours" class="hours">Hours</span>
+      </div>
+      </li>
+      <li class="item">
+        <p class="timer__item timer__minutes">00</p>
+        <div class="parts_day">
+          <span id="minutes" class="minutes">Minutes</span>
+      </div>
+      </li>
+      <li class="item">
+        <p class="timer__item timer__seconds">00</p>
+        <div class="parts_day">
+          <span id="seconds" class="seconds">Seconds</span>
+      </div>
+      </li>
+    </ul>
+  </div>
+
+  <div class ="link-page">
+    <p>Check our event page when you wait:</p>
+    <a href="https://github.com/duffan1337" target="_blank" class="button">
+        Go to the event
+        <img src="svg/arrow.svg" alt="send">
+    </a>
+  </div>
+
+  <footer class="footer">
+    <form action="" id="form" method="post" class="form">
+      <input class="mail" type="text" id="email" class="email" placeholder="Enter your Email and get notified">
+      <button  id="send-mail" class="send-button-form" >
+        <img src="svg/arrow.svg" alt="send">
+    </button>
+    </form>
+  </footer>
+
+
+  <div class="popup invise" id="popup">
+    <div class="popup-window">
+        <h1 id="send-status" class="send-status">Success!</h1>
+        <p id="status-description">You have successfully subscribed to the email newsletter</p>
+        <button class="close-button" id="close-popup">Close</button>
+        <img src="svg/close.svg" id="crosshair" alt="close popup" class="close">
+    </div>
+
+</div>
+<script src="main.js"></script>
+</body>
+</html>
