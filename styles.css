@@ -160,7 +160,7 @@ ul li {
   width: 43px;
   height: 43px;
 
-  transform: translateX(-5px);
+  transform: translateX(-50px);
 
   background-color: #df2224;
   border-radius: 50%;
@@ -398,6 +398,10 @@ ul li {
   .vector-2 {
     background-image: url(svg/vector-2-768.svg);
     width: 30%;
+  }
+
+  .send-button-form {
+    transform: translateX(-5px);
   }
 }
 
