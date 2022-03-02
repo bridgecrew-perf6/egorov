@@ -75,7 +75,7 @@ function MyResponse(status) {
   document.getElementById('send-status').innerHTML = "Error!";
 
   status ? document.getElementById('status-description').innerHTML = "You have successfully subscribed to the email newsletter" 
-  : document.getElementById('status-description').innerHTML = "Something went wrong";;
+  : document.getElementById('status-description').innerHTML = "Something went wrong(Your Mail so long)";;
 
   document.getElementById('popup').classList.remove('invise');
 }
