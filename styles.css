@@ -136,23 +136,22 @@ ul li {
   position: absolute;
   top: 0;
   left: 0;
-  height: 30%;
-
   background-image: url(svg/vector-1.svg);
   background-repeat: no-repeat;
   background-size: contain;
+  background-position: right;
+  max-width: 25vw;
 }
 
 .vector-2 {
   position: absolute;
   top: 0;
   right: 0;
-  height: 30%;
-
   background-image: url(svg/vector-2.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right;
+  max-width: 16vw;
 }
 
 .send-button-form {
@@ -391,12 +390,10 @@ ul li {
   }
 
   .vector-1 {
-    background-image: url(svg/vector-1-768.svg);
     width: 30%;
   }
 
   .vector-2 {
-    background-image: url(svg/vector-2-768.svg);
     width: 30%;
   }
 
@@ -438,13 +435,11 @@ ul li {
   }
 
   .vector-1 {
-    background-image: url(svg/vector-1-360.svg);
-    width: 50%;
+    width: 27%;
   }
 
   .vector-2 {
-    background-image: url(svg/vector-2-360.svg);
-    width: 50%;
+    width: 27%;
   }
 }
 
